@@ -21,7 +21,7 @@ export const Content = ()=> {
             <input
             type="number"
             className="outline-none text-sm sm:text-lg bg-none border-b p-3 border-zinc-300 w-full mb-4 sm:mb-8 text-zinc-500 hover:border-blue-400 hover:placeholder:text-blue-400 hover:text-blue-400 focus:border-blue-400 transition-all"
-            placeholder="Digite sua altura. Ex: 1.5 (em métros)"
+            placeholder="Digite sua altura. Ex: 1.5 (em metros)"
             onChange={e=>setHeightInput(e.target.value)}
             value={heightInput}
             />
