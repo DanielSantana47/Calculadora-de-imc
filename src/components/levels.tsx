@@ -8,7 +8,7 @@ export const Levels = ()=> {
     return(
             <div className="flex flex-1 justify-center">
                 {imcCtx?.imc === 0 &&
-                <div className="grid grid-cols-2 gap-6 w-full h-full">
+                <div className="grid grid-cols-2 gap-4 md:gap-6 w-full h-full">
                     <Box url="assets/down.png" color="bg-gray-500" mainLabel="Magreza" label="0 e 18,5"/>
                     <Box url="assets/up.png" color="bg-green-400" mainLabel="Normal" label="18,5 e 24,9"/>
                     <Box url="assets/down.png" color="bg-yellow-500" mainLabel="Sobrepeso" label="24,9 e 30"/>
